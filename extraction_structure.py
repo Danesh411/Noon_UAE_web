@@ -51,7 +51,7 @@ def pagesave_portion(join_path, fetch_Product_URL):
         while attempts < max_attempts and not my_selector:
             try:
                 url = fetch_Product_URL
-                # token = "f42a5b59aec3467e97a8794c611c436b91589634343"
+                # token = ""
                 # scrape_do_url = f'http://api.scrape.do?token={token}&url={urllib.parse.quote(url)}&customHeaders=true&super=true'
                 response = requests.get(url=url,
                                         headers=headers,
